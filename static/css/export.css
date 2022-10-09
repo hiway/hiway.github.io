@@ -42,3 +42,7 @@ img {
     max-width: 100%;
     border: 5px solid #fff;
 }
+
+.flashcards-nav {
+    display: none;
+}
