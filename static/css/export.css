@@ -9,10 +9,10 @@ References:
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_duo.css'); */
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_quattro.css'); */
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans.css'); */
-@import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans_compact.css');
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_serif.css'); */
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_serif_compact.css'); */
 
+@import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans_compact.css');
 :root {
 	--title-font-family: "iA Writer Quattro S";
 	--title-font-size: 18pt;
@@ -26,3 +26,19 @@ References:
 /* .references.mt-6.flex-1.flex-row {
     display: none;
 } */
+
+/* Editing button does not work in exported graph, hide it.  */
+.block-content-wrapper > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) {
+    display: none;
+}
+
+/* Open block references button does not work in exported graph either, hide it. */
+.block-content-wrapper > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) {
+    display: none;
+}
+
+/* Add border to separate screenshots of Logseq from content. */
+img {
+    max-width: 100%;
+    border: 5px solid #fff;
+}
