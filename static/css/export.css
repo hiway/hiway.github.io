@@ -9,10 +9,15 @@ References:
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_duo.css'); */
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_quattro.css'); */
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans.css'); */
-/* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans_compact.css'); */
+@import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans_compact.css');
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_serif.css'); */
 /* @import url('https://playerofgames.github.io/logseq-mia-theme/mia_serif_compact.css'); */
 
+:root {
+	--title-font-family: "iA Writer Quattro S";
+	--title-font-size: 18pt;
+	--title-font-stylistic-set: "ss04"; /* plain (not dotted) zeros */
+}
 
 .cp__sidebar-help-btn {
     display: none;
